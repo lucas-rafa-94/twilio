@@ -12,14 +12,14 @@ public class CreateAccountModel {
     private long Phone;
 
     public CreateAccountModel(String method, long partnerId, long businessUnitId, String mail, String nickname, String name, String taxNumber, long phone) {
-        Method = method;
-        PartnerId = partnerId;
-        BusinessUnitId = businessUnitId;
-        Mail = mail;
-        Nickname = nickname;
-        Name = name;
-        TaxNumber = taxNumber;
-        Phone = phone;
+        this.Method = method;
+        this.PartnerId = partnerId;
+        this.BusinessUnitId = businessUnitId;
+        this.Mail = mail;
+        this.Nickname = nickname;
+        this.Name = name;
+        this.TaxNumber = taxNumber;
+        this.Phone = phone;
     }
 
     public CreateAccountModel() {

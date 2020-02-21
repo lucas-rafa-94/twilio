@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Main-Class: org.springframework.boot.loader.JarLauncher
-Start-Class: com.revobank.backend.bigBoost.BigBoostApplication
+Start-Class: com.revobank.backend.fitbank.FitBankApplication
 Spring-Boot-Version: 2.2.4.RELEASE
 Spring-Boot-Classes: BOOT-INF/classes/
 Spring-Boot-Lib: BOOT-INF/lib/
