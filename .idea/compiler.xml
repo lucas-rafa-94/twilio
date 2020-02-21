@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="bigBoost.main" target="1.8" />
       <module name="bigBoost.test" target="1.8" />
+      <module name="fitBank.main" target="1.8" />
+      <module name="fitBank.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
