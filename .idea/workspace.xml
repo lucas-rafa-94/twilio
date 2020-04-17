@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24bf3302-2c63-4a1b-aaa9-5bea552bfd56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/controller/FitBankController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/controller/TwilioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/service/FitBankCallerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/service/TwilioCallerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/FitBankApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/FitBankApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/controller/FitBankController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/CreateAccountModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/CreateAccountModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/db/LogAuditModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/db/LogAuditModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/db/LogErrorModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/db/LogErrorModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/response/ResponseModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/model/response/ResponseModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/repository/LogAuditModelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/repository/LogAuditModelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/repository/LogErrorModelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/repository/LogErrorModelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/service/FitBankCallerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/service/db/LogAuditModelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/service/db/LogAuditModelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/service/db/LogErrorModelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/service/db/LogErrorModelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/utils/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/revobank/backend/fitbank/utils/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/service/TwilioCallerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/service/TwilioCallerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +130,7 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BigBoostApplication">
+  <component name="RunManager" selected="Spring Boot.FitBankApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -179,6 +195,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FitBankApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="twilio.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revobank.backend.fitbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revobank.backend.fitbank.FitBankApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -199,6 +228,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FitBankApplication" />
         <item itemvalue="Gradle.bigBoost [buildDependents]" />
         <item itemvalue="Gradle.bigBoost [dependencies]" />
       </list>
@@ -228,7 +258,10 @@
       <updated>1582235786226</updated>
       <workItem from="1582235788461" duration="20359000" />
       <workItem from="1582262180148" duration="2715000" />
-      <workItem from="1582265076289" duration="1641000" />
+      <workItem from="1582265076289" duration="2577000" />
+      <workItem from="1582290652351" duration="596000" />
+      <workItem from="1582309862835" duration="77000" />
+      <workItem from="1587145575852" duration="979000" />
     </task>
     <servers />
   </component>
@@ -260,37 +293,45 @@
       <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state x="671" y="265" key="Github.UntrackedFilesDialog/40.23.1880.1057@40.23.1880.1057" timestamp="1582257464417" />
-    <state width="1838" height="415" key="GridCell.Tab.0.bottom" timestamp="1582264088198">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.0.bottom" timestamp="1587146574403">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.0.bottom/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574403" />
     <state width="1838" height="415" key="GridCell.Tab.0.bottom/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088198" />
-    <state width="1838" height="415" key="GridCell.Tab.0.center" timestamp="1582264088197">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.0.center" timestamp="1587146574402">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.0.center/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574402" />
     <state width="1838" height="415" key="GridCell.Tab.0.center/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088197" />
-    <state width="1838" height="415" key="GridCell.Tab.0.left" timestamp="1582264088196">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.0.left" timestamp="1587146574401">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.0.left/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574401" />
     <state width="1838" height="415" key="GridCell.Tab.0.left/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088196" />
-    <state width="1838" height="415" key="GridCell.Tab.0.right" timestamp="1582264088198">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.0.right" timestamp="1587146574403">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.0.right/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574403" />
     <state width="1838" height="415" key="GridCell.Tab.0.right/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088198" />
-    <state width="1838" height="415" key="GridCell.Tab.1.bottom" timestamp="1582264088200">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.1.bottom" timestamp="1587146574407">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.1.bottom/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574407" />
     <state width="1838" height="415" key="GridCell.Tab.1.bottom/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088200" />
-    <state width="1838" height="415" key="GridCell.Tab.1.center" timestamp="1582264088199">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.1.center" timestamp="1587146574406">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.1.center/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574406" />
     <state width="1838" height="415" key="GridCell.Tab.1.center/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088199" />
-    <state width="1838" height="415" key="GridCell.Tab.1.left" timestamp="1582264088199">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.1.left" timestamp="1587146574404">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.1.left/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574404" />
     <state width="1838" height="415" key="GridCell.Tab.1.left/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088199" />
-    <state width="1838" height="415" key="GridCell.Tab.1.right" timestamp="1582264088200">
-      <screen x="40" y="23" width="1880" height="1057" />
+    <state width="1598" height="401" key="GridCell.Tab.1.right" timestamp="1587146574406">
+      <screen x="25" y="23" width="1655" height="1027" />
     </state>
+    <state width="1598" height="401" key="GridCell.Tab.1.right/25.23.1655.1027/1680.23.1920.1057@25.23.1655.1027" timestamp="1587146574406" />
     <state width="1838" height="415" key="GridCell.Tab.1.right/40.23.1880.1057@40.23.1880.1057" timestamp="1582264088200" />
     <state width="1838" height="357" key="GridCell.Tab.2.bottom" timestamp="1582252698062">
       <screen x="40" y="23" width="1880" height="1057" />
@@ -316,16 +357,5 @@
       <screen x="40" y="23" width="1880" height="1057" />
     </state>
     <state x="645" y="258" width="670" height="676" key="search.everywhere.popup/40.23.1880.1057@40.23.1880.1057" timestamp="1582266202061" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/revobank/backend/fitbank/service/TwilioCallerService.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

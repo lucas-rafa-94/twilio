@@ -24,9 +24,9 @@ public class TwilioCallerService {
     Helper helper;
 
     public static final String ACCOUNT_SID =
-            "AC538fa8d2d5f02fc94b340a246878f7d0";
+            "AC81d375f3b4579c0da6814f608a964799";
     public static final String AUTH_TOKEN =
-            "8fb325a880df1aa8ac5b0530b041bb2c";
+            "7a5246a087ded3efcf1d9a4797fb03de";
 
     public ResponseModel sendSms(long pass, String number, String idCaller ) {
         ResponseModel responseModel = new ResponseModel();
@@ -34,11 +34,14 @@ public class TwilioCallerService {
         long response = 0;
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         helper.createLog("TWILIO", "REQUEST","Revobank senha de confirmação: ".concat(" " + pass + " from " + number)  , idCaller, "SEND_SMS", 0);
+        System.out.println(pass);
 
+        String str = "Revobank senha " + String.valueOf(pass);
+        System.out.println(str);
         try {
-            Message message = Message.creator(new PhoneNumber("+5511946333180"), // to
-                    new PhoneNumber("+18329248396"), // from
-                    "Revobank senha de confirmação: ".concat(" " + pass))
+            Message message = Message.creator(new PhoneNumber("+55" + number), // to
+                    new PhoneNumber("+12058283216"), // from
+                    str)
                     .create();
             responseModel.setStatus(200);
             responseModel.setMessage("Sms enviado com sucesso!");
