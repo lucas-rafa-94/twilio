@@ -1,0 +1,19 @@
+replicaCount: 1
+
+app: qasender
+namespace: default
+
+image:
+  repository: registry.digitalocean.com/revobank-registry/revobanksender
+  tag: :GIT_COMMIT
+  name: qa-sender
+  port: 8080
+
+service:
+  name: qa-sender-service
+  type: LoadBalancer
+
+ingress:
+  name: qasender-ingress
+  secretName: senderqa-tls-cert
+  host: sender.revobank.com.br
